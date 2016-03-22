@@ -1,0 +1,23 @@
+{
+  "name": "react-redux-demo",
+  "version": "1.0.0",
+  "description": "demo application featuring react, redux, and a slew of other neat things",
+  "main": "index.js",
+  "author": "Corey Dutson",
+  "license": "ISC",
+  "dependencies": {
+    "react-dom": "^0.14.7",
+    "react": "^0.14.7",
+    "react-redux": "4.4.x",
+    "redux": "^3.3.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "redux-logger": "^2.6.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --inline --content-base . --history-api-fallback",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
